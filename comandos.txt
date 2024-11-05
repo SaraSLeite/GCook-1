@@ -1,5 +1,5 @@
-git config --global user.name GalloJunior
-git config --global user.email gallojunior@gmail.com
+git config --global user.name SaraSLeite
+git config --global user.email saraleite2708@gmail.com
 
 dotnet new mvc -o GCook
 
@@ -9,4 +9,4 @@ dotnet ef migrations add InitialCreate
 
 dotnet ef database update
 
-dotnet-aspnet-codegenerator controller -name CategoriasController -m Categoria -dc AppDbContext -outDir Controllers -l "~/Views/Shared/_LayoutAdmin.cshtml"
+dotnet-aspnet-codegenerator controller -name CategoriasController -m Categoria -dc AppDbContext -outDir Controllers -l "~/Views/Shared/_LayoutAdmin.cshtml"'
