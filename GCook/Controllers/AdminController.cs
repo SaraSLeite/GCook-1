@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace GCook.Controllers;
 
-[Authorize(Roles = "Administrador")]
+[Authorize(Roles = "Administrador, Moderador")]
 public class AdminController : Controller
 {
     private readonly ILogger<AdminController> _logger;
